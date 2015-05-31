@@ -1,2 +1,5 @@
 # flapper
-Tutorial project on AngularJS
+Using
+- Bower
+- Angular JS
+- Bootstrap 3.3.4
