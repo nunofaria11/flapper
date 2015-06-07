@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Flapper</title>
+		<script src="bower_components/angular/angular.js"></script>
+		<script src="bower_components/jquery/dist/jquery.min.js"></script>
+		<script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+		<script src="bower_components/angular-route/angular-route.js"></script>
+		<link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<script src="scripts/app.js"></script>
+		<script src="scripts/mainController.js"></script>
+		<script src="scripts/postsController.js"></script>
+	</head>
+	<body ng-app="flapperNews">
+		
+		<nav class="navbar navbar-default">
+			<div class="container-fluid">
+				<div class="navbar-header">
+					<a class="navbar-brand" href="#/home">
+						<img alt="Brand" src="img/NF.png" style="height: 100%;">
+					</a>
+				</div>
+			</div>
+		</nav>
+		<div class="row">
+			<div class="col-md-6 col-md-offset-3">
+				<div ng-view class="view-frame"></div>
+			</div>
+		</div>
+	</body>
+</html>

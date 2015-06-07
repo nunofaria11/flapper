@@ -1,0 +1,31 @@
+{
+  "name": "flapper",
+  "version": "1.0.0",
+  "description": "Flapper tutorial",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node node_modules/http-server/bin/http-server -o"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nunofaria11/flapper"
+  },
+  "keywords": [
+    "flapper",
+    "tutorial",
+    "angular-js",
+    "mean-js",
+    "mongodb"
+  ],
+  "author": "nunofaria",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nunofaria11/flapper/issues"
+  },
+  "homepage": "https://github.com/nunofaria11/flapper",
+  "dependencies": {
+    "express": "^4.12.4",
+    "http-server": "^0.8.0"
+  }
+}
