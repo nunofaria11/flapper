@@ -1,4 +1,4 @@
-'use strict';
+/*global angular,alert*/
 var postsController = angular.module('postsController', []);
 
 postsController.controller('PostsCtrl',  ['$scope', '$routeParams', 'posts', 

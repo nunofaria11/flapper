@@ -15,13 +15,14 @@
 		{{comment.body}}
 	</span>
 </div>
-<form ng-submit="addComment()" style="margin-top:30px;">
+<form ng-submit="addComment()" class="well" style="margin-top:30px;">
 	<h3>Add a comment</h3>
 	<div class="form-group">
 		<input id="author" ng-model="author" placeholder="Anonymous..." class="form-control" />
 	</div>
 	<div class="form-group">
-		<textarea id="body" ng-model="body" placeholder="Write your comment..." class="form-control"></textarea>
+		<input id="body" ng-model="body" placeholder="Write your comment..." class="form-control" />
 	</div>
-	<button type="submit" class="btn btn-primary">Comment</button>
+	<button type="submit" class="btn btn-primary pull-right">Comment</button>
+	<div class="clearfix"></div>
 </form>

@@ -27,5 +27,11 @@
   "dependencies": {
     "express": "^4.12.4",
     "http-server": "^0.8.0"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-jshint": "^1.11.0",
+    "gulp-uglify": "^1.2.0",
+    "jshint-stylish": "^2.0.0"
   }
 }

@@ -1,4 +1,4 @@
-'use strict';
+/*global angular,alert*/
 var app = angular.module('flapperNews', ['ngRoute', 'mainController','postsController']);
 
 app.config(['$routeProvider',
